@@ -4,8 +4,6 @@
 --
 -- Host: localhost
 -- Generation Time: Dec 01, 2020 at 04:10 AM
--- Server version: 10.3.27-MariaDB
--- PHP Version: 7.3.24
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
