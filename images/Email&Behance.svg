@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="943" height="165" viewBox="0 0 943 165">
+  <defs>
+    <filter id="Rectangle_6" x="0" y="0" width="943" height="165" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_185" data-name="Group 185" transform="translate(9.418 6.391)">
+    <g transform="matrix(1, 0, 0, 1, -9.42, -6.39)" filter="url(#Rectangle_6)">
+      <rect id="Rectangle_6-2" data-name="Rectangle 6" width="925" height="147" rx="20" transform="translate(9 6)" fill="#f8f9ff"/>
+    </g>
+    <g id="Contact" transform="translate(43.767 36.346)">
+      <g id="Group_96" data-name="Group 96" transform="translate(0 0)">
+        <g id="Group_95" data-name="Group 95" transform="translate(77.03)">
+          <text id="Email" transform="translate(-0.215 35.263)" fill="#4a4a4a" font-size="32" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.06em"><tspan x="0" y="0">Email</tspan></text>
+          <text id="Abedshammalah_gmail.com" data-name="Abedshammalah@gmail.com" transform="translate(-0.215 67.263)" fill="#4a4a4a" font-size="24" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Abedshammalah@gmail.com</tspan></text>
+        </g>
+        <path id="Icon_material-email" data-name="Icon material-email" d="M47.844,6H7.983a4.976,4.976,0,0,0-4.958,4.983L3,40.879a5,5,0,0,0,4.983,4.983H47.844a5,5,0,0,0,4.983-4.983v-29.9A5,5,0,0,0,47.844,6Zm0,9.965L27.913,28.422,7.983,15.965V10.983L27.913,23.439,47.844,10.983Z" transform="translate(-3 11.439)" fill="#d44a3c"/>
+      </g>
+      <g id="Group_97" data-name="Group 97" transform="translate(429.968 0)">
+        <g id="Group_94" data-name="Group 94" transform="translate(79.901)">
+          <text id="Behance:" transform="translate(-0.053 35.263)" fill="#4a4a4a" font-size="32" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.06em"><tspan x="0" y="0">Behance:</tspan></text>
+          <text id="www.behance.net_abdshamala" data-name="www.behance.net/abdshamala" transform="translate(-0.053 67.263)" fill="#4a4a4a" font-size="24" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">www.behance.net/abdshamala</tspan></text>
+        </g>
+        <path id="Icon_awesome-behance-square" data-name="Icon awesome-behance-square" d="M21.78,32.73c0,2.254-1.635,2.966-3.644,2.966H12.869V29.518h5.372C20.413,29.53,21.78,30.429,21.78,32.73Zm-.9-9.611c0-2.067-1.6-2.557-3.375-2.557H12.881v5.232h4.987c1.763,0,3.013-.771,3.013-2.674Zm15.45,2.709a3.481,3.481,0,0,0-3.7,3.468h7.264C39.694,27.136,38.573,25.828,36.33,25.828ZM52.318,7.855V48.962a5.607,5.607,0,0,1-5.605,5.605H5.605A5.607,5.607,0,0,1,0,48.962V7.855A5.607,5.607,0,0,1,5.605,2.25H46.712A5.607,5.607,0,0,1,52.318,7.855ZM31.729,20.117h9.086V17.91H31.729ZM26.708,33c0-2.814-1.331-5.243-4.087-6.026,2.009-.958,3.06-2.067,3.06-4.321,0-4.461-3.328-5.547-7.17-5.547H7.941V39.526H18.813C22.889,39.5,26.708,37.553,26.708,33ZM44.377,31.27c0-4.8-2.814-8.805-7.894-8.805-4.952,0-8.3,3.714-8.3,8.6,0,5.057,3.188,8.525,8.3,8.525,3.877,0,6.388-1.74,7.6-5.465H40.149c-.432,1.39-2.172,2.114-3.527,2.114-2.616,0-3.982-1.53-3.982-4.122h11.7C44.353,31.842,44.377,31.55,44.377,31.27Z" transform="translate(0 8.961)" fill="#1a5efb"/>
+      </g>
+    </g>
+  </g>
+</svg>

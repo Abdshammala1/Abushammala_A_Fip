@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="509" height="169" viewBox="0 0 509 169">
+  <defs>
+    <filter id="Rectangle_2" x="0" y="0" width="509" height="169" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.259"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Ui_designer" data-name="Ui designer" transform="translate(9 5)">
+    <g id="Group_114" data-name="Group 114" transform="translate(0 0)">
+      <g transform="matrix(1, 0, 0, 1, -9, -5)" filter="url(#Rectangle_2)">
+        <rect id="Rectangle_2-2" data-name="Rectangle 2" width="491" height="151" rx="22" transform="translate(9 5)" fill="#fff"/>
+      </g>
+      <g id="Group_113" data-name="Group 113" transform="translate(36.03 27.911)">
+        <g id="Group_112" data-name="Group 112" transform="translate(121.699 8.274)">
+          <text id="UI_UX_Designer" data-name="UI &amp; UX Designer" transform="translate(0.271 24.815)" fill="#4a4a4a" font-size="24" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">UI &amp; UX Designer</tspan></text>
+          <text id="Creative_web_designer_for_you" data-name="Creative web designer for you" transform="translate(0.271 69.815)" fill="#4a4a4a" font-size="19" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Creative web designer for you</tspan></text>
+        </g>
+        <g id="user-interface">
+          <g id="Group_108" data-name="Group 108">
+            <path id="Path_4" data-name="Path 4" d="M89.538,23.877H5.969A5.977,5.977,0,0,1,0,17.908V5.969A5.977,5.977,0,0,1,5.969,0H89.538a5.977,5.977,0,0,1,5.969,5.969V17.908A5.977,5.977,0,0,1,89.538,23.877ZM5.969,3.979a1.99,1.99,0,0,0-1.99,1.99V17.908a1.99,1.99,0,0,0,1.99,1.99H89.538a1.99,1.99,0,0,0,1.99-1.99V5.969a1.99,1.99,0,0,0-1.99-1.99Z" fill="#4a61f8"/>
+          </g>
+          <g id="Group_109" data-name="Group 109" transform="translate(0 35.815)">
+            <path id="Path_5" data-name="Path 5" d="M11.938,32.877A11.938,11.938,0,1,1,23.877,20.938,11.953,11.953,0,0,1,11.938,32.877Zm0-19.9A7.959,7.959,0,1,0,19.9,20.938,7.967,7.967,0,0,0,11.938,12.979Z" transform="translate(0 -9)" fill="#4a61f8"/>
+          </g>
+          <g id="Group_110" data-name="Group 110" transform="translate(0 71.631)">
+            <path id="Path_6" data-name="Path 6" d="M11.938,41.877A11.938,11.938,0,1,1,23.877,29.938,11.953,11.953,0,0,1,11.938,41.877Zm0-19.9A7.959,7.959,0,1,0,19.9,29.938,7.967,7.967,0,0,0,11.938,21.979Z" transform="translate(0 -18)" fill="#4a61f8"/>
+          </g>
+          <g id="Group_111" data-name="Group 111" transform="translate(31.836 35.815)">
+            <path id="Path_7" data-name="Path 7" d="M65.7,68.692H13.969A5.977,5.977,0,0,1,8,62.723V14.969A5.977,5.977,0,0,1,13.969,9H65.7a5.977,5.977,0,0,1,5.969,5.969V62.723A5.977,5.977,0,0,1,65.7,68.692ZM13.969,12.979a1.99,1.99,0,0,0-1.99,1.99V62.723a1.99,1.99,0,0,0,1.99,1.99H65.7a1.99,1.99,0,0,0,1.99-1.99V14.969a1.99,1.99,0,0,0-1.99-1.99Z" transform="translate(-8 -9)" fill="#4a61f8"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
