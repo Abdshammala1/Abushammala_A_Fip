@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <title>Portfolio - Services</title>
+      <!-- Favicon-->
+      <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+      <!-- Google fonts-->
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+      <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+      <!-- <link href="css/styles.css" rel="stylesheet" /> -->
+      <link href="css/master.css" rel="stylesheet" />
+      <link href="css/custom.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger ml-4" href="index.html"> <img class="img" src="images/myAvatar.svg" alt="myavatar" /> </a>
+                <button
+                    class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    @click="display_header();"
+                >
+                    Menu <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive" :style="{display:disp}">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html">Home</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="services.html">Services</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="about.html">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center pt-4 pb-4" style="margin-top: 2rem;">
+            <div class="container align-items-center">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 text-center text-white text-uppercase"><p class="h1 display-4">The project showcase</p></div>
+                </div>
+            </div>
+        </header>
+        <!-- Graphic design -->
+        <section class="page-section pb-0">
+            <div class="container">
+                <div class="d-flex flex-row">
+                    <h4 class="text-dark text-uppercase col-md-4 col-sm-4">Graphics Designs</h4>
+                    <div class="divide-dot-blue justify-content-center col-md-8 col-sm-8"></div>
+                </div>
+                <br />
+                <br />
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 mb-4">
+                        <div class="row rounded pt-4 pb-2 w-100 m-0 shadow bg-white">
+                            <div class="col-md-4 col-sm-6 mb-4 text-center align-self-center">
+                                <picture>
+                                    <source srcset="images/gh-design-1.svg" />
+                                    <source srcset="images/gh-design-1.svg" />
+                                    <img class="img-fluid" src="images/gh-design-1.svg" />
+                                </picture>
+                            </div>
+                            <div class="col-md-8 col-sm-6 text-dark">
+                                <p class="h6 text-uppercase">Offical Card Design</p>
+                                <p>I will design any kind of card like visiting card, name plate design, banner design with perfect color, perfect font and perfect icon.</p>
+                                <div class="divide-dot-dark"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="row rounded shadow bg-white pt-4 pb-2 w-100 m-0">
+                            <div class="col-md-4 col-sm-6 mb-4 text-center align-self-center">
+                                <picture>
+                                    <source srcset="images/gh-design-2.svg" />
+                                    <source srcset="images/gh-design-2.svg" />
+                                    <img class="img-fluid" src="images/gh-design-2.svg" />
+                                </picture>
+                            </div>
+                            <div class="col-md-8 col-sm-6 text-dark">
+                                <p class="h6 text-uppercase">Product Design in 2D & 3D</p>
+                                <p>I will design any kind of card like visiting card, name plate design, banner design with perfect color, perfect font and perfect icon.</p>
+                                <div class="divide-dot-dark"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="row rounded shadow bg-white pt-4 pb-2 w-100 m-0">
+                            <div class="col-md-4 col-sm-6 mb-4 text-center align-self-center">
+                                <picture>
+                                    <source srcset="images/gh-design-3.svg" />
+                                    <source srcset="images/gh-design-3.svg" />
+                                    <img class="img-fluid" src="images/gh-design-3.svg" />
+                                </picture>
+                            </div>
+                            <div class="col-md-8 col-sm-6 text-dark">
+                                <p class="h6 text-uppercase">Logo Design</p>
+                                <p>I will design any kind of card like visiting card, name plate design, banner design with perfect color, perfect font and perfect icon.</p>
+                                <div class="divide-dot-dark"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
+        </section>
+        <!-- UX/UI design -->
+        <section class="page-section text-dark mb-0">
+            <div class="container text-center">
+                <div class="d-flex flex-row">
+                    <h4 class="text-dark text-uppercase col-md-3">UX/UI designs</h4>
+                    <div class="divide-dot-blue justify-content-center col-md-9"></div>
+                </div>
+                <br />
+                <br />
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-md-3 col-sm-3 mb-5">
+                        <picture>
+                            <source srcset="images/portfolio/portfolio-2.png" />
+                            <source srcset="images/portfolio/portfolio-2.png" />
+                            <img class="img-fluid" src="images/portfolio/portfolio-2.png" />
+                        </picture>
+                    </div>
+                    <div class="col-md-3 col-sm-3 mb-5">
+                        <picture>
+                            <source srcset="images/portfolio/portfolio-4.png" />
+                            <source srcset="images/portfolio/portfolio-4.png" />
+                            <img class="img-fluid" src="images/portfolio/portfolio-4.png" />
+                        </picture>
+                    </div>
+                    <div class="col-md-3 col-sm-3 mb-5">
+                        <picture>
+                            <source srcset="images/portfolio/portfolio-8.png" />
+                            <source srcset="images/portfolio/portfolio-8.png" />
+                            <img class="img-fluid" src="images/portfolio/portfolio-8.png" />
+                        </picture>
+                    </div>
+                    <div class="col"></div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-3 col-sm-3 mb-5">
+                        <picture>
+                            <source srcset="images/portfolio/portfolio-6.png" />
+                            <source srcset="images/portfolio/portfolio-6.png" />
+                            <img class="img-fluid" src="images/portfolio/portfolio-6.png" />
+                        </picture>
+                    </div>
+                    <div class="col-md-3 col-sm-3 mb-5">
+                        <picture>
+                            <source srcset="images/portfolio/portfolio-7.png" />
+                            <source srcset="images/portfolio/portfolio-7.png" />
+                            <img class="img-fluid" src="images/portfolio/portfolio-7.png" />
+                        </picture>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+                <br />
+                <br />
+                <div class="row">
+                    <div class="col text-center text-dark">
+                        <!-- <p class="h5"> The Mobile Phone App is a leadiing app, but its design looks outdated compared to its competitors. </p> <p class="h5"> With such tight competition in the industry, a visual overhaul is long overdue. </p> <p class="h5"> I thus set out to reimagine these Apps so it can maintain its lead in the years to come. </p> -->
+                        <p class="lead">
+                            The Mobile Phone App is a leadiing app, but its design looks outdated compared to its competitors.<br />
+                            With such tight competition in the industry, a visual overhaul is long overdue.<br />
+                            I thus set out to reimagine these Apps so it can maintain its lead in the years to come.
+                        </p>
+                        <br />
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer text-left" style="background-color: #4a61f8;">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Avatar-->
+                    <div class="col-lg-2"><img class="img-fluid" src="images/footer_avatar.png" alt="footer avatar" /></div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-3 footer_contact">
+                        <div>
+                            <p class="text-left">Contact</p>
+                            <div class="text-left">
+                                <img src="images/footer_contact-phone.png">
+                                <span>+15196971990</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 footer_contact mb-4">
+                        <div class="text-left">
+                            <p class="text-left">Email</p>
+                            <div>
+                                <img src="images/footer_contact-mail.png">
+                                <span>Abedshammalah@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-3"><img class="img-fluid" src="images/footer_checkme.png" alt="footer checkme" /></div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+        <script type="module" src="js/main.js"></script>
+    </body>
+</html>

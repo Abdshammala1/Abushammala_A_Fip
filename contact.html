@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Portfolio - Contact</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- <link href="css/styles.css" rel="stylesheet" /> -->
+        <link href="css/master.css" rel="stylesheet" />
+        <link href="css/custom.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger ml-4" href="index.html">
+                    <img class="img" src="images/myAvatar.svg" alt="myavatar" />
+                </a>
+                <button
+                    class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    @click="display_header();"
+                >
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive" :style="{display:disp}">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- My Address -->
+        <section id="contact-form" class="page-section" style="margin-top: -4rem;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 text-dark">
+                        <p class="h2 display-4 text-center">Looking For Something?</p>
+                        <p class="h2 display-4 text-center">How Can I Help You</p>
+                        <br />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 d-flex mb-4">
+                        <picture class="mr-4 align-self-center">
+                            <source srcset="images/Untitled-9.png" />
+                            <source srcset="images/Untitled-9.png" />
+                            <img class="img-fluid" src="images/Untitled-9.png" />
+                        </picture>
+                        <p class="h6 text-dark align-self-center">750 Capulet Lane London, Ontario, N6h0j9</p>
+                    </div>
+                    <div class="col-md-6 col-sm-12 d-flex mb-4">
+                        <picture class="mr-4 align-self-center">
+                            <source srcset="images/Untitled-10.png" />
+                            <source srcset="images/Untitled-10.png" />
+                            <img class="img-fluid" src="images/Untitled-10.png" />
+                        </picture>
+                        <p class="h6 text-dark align-self-center">+15196971990</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 mb-4">
+                        <iframe
+                            class="w-100"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2918.498800451901!2d-81.3001834!3d42.9888304!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef10553288b13%3A0xd6bd532a1ac6e5e!2s750%20Capulet%20Ln%2C%20London%2C%20ON%20N6H%200J9%2C%20Canada!5e0!3m2!1sen!2sus!4v1606157172273!5m2!1sen!2sus"
+                            width="600"
+                            height="450"
+                            frameborder="0"
+                            style="border: 0;"
+                            allowfullscreen=""
+                            aria-hidden="false"
+                            tabindex="0"
+                        ></iframe>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <form id="contactForm" action="javascript:void(0);">
+                            <div class="form-group">
+                                <input type="name" class="form-control" v-model="name" placeholder="Name" required />
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" v-model="email" placeholder="Email" required />
+                            </div>
+                            <div class="form-group">
+                                <input type="title" class="form-control" v-model="subject" placeholder="Subject" required />
+                            </div>
+                            <div class="form-group">
+                                <textarea type="text" class="form-control" placeholder="Message" style="height: 14rem;" required v-model="message">{{message}}</textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary w-100" @click="storeContact()">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="alert alert-success" id="success" :style="{display: success}">
+                            <strong>Your message has been sent. </strong>
+                        </div>
+                        <div class="alert alert-danger" id="wrong" :style="{display: wrong}">
+                            <strong>Sorry , it seems that my mail server is not responding. Please try again later!</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer text-left" style="background-color: #4a61f8;">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Avatar-->
+                    <div class="col-lg-2"><img class="img-fluid" src="images/footer_avatar.png" alt="footer avatar" /></div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-3 footer_contact">
+                        <div>
+                            <p class="text-left">Contact</p>
+                            <div class="text-left">
+                                <img src="images/footer_contact-phone.png">
+                                <span>+15196971990</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 footer_contact mb-4">
+                        <div class="text-left">
+                            <p class="text-left">Email</p>
+                            <div>
+                                <img src="images/footer_contact-mail.png">
+                                <span>Abedshammalah@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-3"><img class="img-fluid" src="images/footer_checkme.png" alt="footer checkme" /></div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+        <script type="module" src="js/main.js"></script>
+    </body>
+</html>
