@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Portfolio - Abdal Abushammala</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- <link href="css/styles.css" rel="stylesheet" /> -->
+        <link href="css/master.css" rel="stylesheet" />
+        <link href="css/custom.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger ml-4" href="index.html"> <img class="img" src="images/myAvatar.svg" alt="myavatar" /> </a>
+                <button
+                    class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    @click="display_header();"
+                >
+                    Menu <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive" :style="{display:disp}">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html">Home</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="services.html">Services</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="about.html">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-primary pb-5 pt-4" style="margin-top: 3rem;">
+            <div class="container align-items-center">
+                <div class="row">
+                    <div class="col-md-7 col-sm-12 text-white mb-4">
+                        <p class="h1">Hi I'm Abdal Abushammala</p>
+                        <p class="h3" style="color: #fcb129;">Graphic and Motion designer</p>
+                        <p class="lead">Product designer and digital graphic designer in design field for 4 years and so far, specialized in UI/UX, logo and all kind of design field</p>
+                        <picture>
+                            <source srcset="images/Email&Behance.svg" />
+                            <source srcset="images/Email&Behance.svg" />
+                            <img class="img-fluid" src="images/Email&Behance.svg" />
+                        </picture>
+                    </div>
+                    <div class="col-md-5 col-sm-12 text-center"><video id="video" class="w-100" :src="source" autoplay loop playsinline muted></video></div>
+                </div>
+            </div>
+        </header>
+        <!-- Skill Sets-->
+        <div class="container pt-0 mt-0">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 mb-3">
+                    <picture>
+                        <source srcset="images/ui_designer.svg" />
+                        <source srcset="images/ui_designer.svg" />
+                        <img class="img-fluid" src="images/ui_designer.svg" />
+                    </picture>
+                </div>
+                <div class="col-md-4 col-sm-12 mb-3">
+                    <picture>
+                        <source srcset="images/logo_designer.svg" />
+                        <source srcset="images/logo_designer.svg" />
+                        <img class="img-fluid" src="images/logo_designer.svg" />
+                    </picture>
+                </div>
+                <div class="col-md-4 col-sm-12 mb-3">
+                    <picture>
+                        <source srcset="images/motion_designer.svg" />
+                        <source srcset="images/motion_designer.svg" />
+                        <img class="img-fluid" src="images/motion_designer.svg" />
+                    </picture>
+                </div>
+            </div>
+        </div>
+        <!-- About -->
+        <section class="page-section pb-0" style="margin-top: -4rem;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-12 w-100 mb-3" style="padding-right: 4rem;">
+                        <picture>
+                            <source srcset="images/about.png" />
+                            <source srcset="images/about.png" />
+                            <img class="img-fluid" src="images/about.png" />
+                        </picture>
+                    </div>
+                    <div class="col-md-7 col-sm-12 w-100 text-dark">
+                        <p class="h2 display-4">About me</p>
+                        <p class="lead">Product designer and digital creative designer working in design field for 4 years so far. Expert in UI/UX design, branding, logo design and have all kind of experience in Graphics related work.</p>
+                        <p class="h3">check me in</p>
+                        <div class="btn-group" data-toggle="buttons">
+                            <a class="btn pl-0" href="javascript:void(0)" role="button"> <img class="img-fluid mt-2" src="images/upwork_btn.svg" alt="upwork flag" /> </a>
+                            <a class="btn" href="javascript:void(0)" role="button"> <img class="img-fluid" src="images/behance_btn.svg" alt="behance flag" /> </a>
+                        </div>
+                        <div class="mt-4"><button type="button" class="btn btn-secondary font-weight-bold mr-4">HIRE ME NOW</button> <button type="button" class="btn btn-primary font-weight-bold">CONTACT ME</button></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Skill -->
+        <section class="page-section pb-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 text-dark">
+                        <p class="h2 display-4 mb-4">What My Design Skills Included</p>
+                        <p class="lead">Highly creative and multitalented Graphic Designer with extensive experience in multimedia, marketing and print design.</p>
+                        <p class="lead">Exceptional collaborative and interpersonal skills; dynamic team player with well-developed written and verbal communication abilities.</p>
+                        <p></p>
+                        <p class="lead">Highly skilled in client and vendor relations and negotiations; talented at building and maintaining "win-win" partnerships.</p>
+                    </div>
+                    <!-- Design skills -->
+                    <div class="col-md-3 col-sm-12 text-dark">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 text-center"><p class="h1">Design Skills</p></div>
+                            <div class="col-md-12 col-6 text-center mb-4">
+                                <picture>
+                                    <source srcset="images/ps.png" />
+                                    <source srcset="images/ps.png" />
+                                    <img class="img-fluid" src="images/ps.png" />
+                                </picture>
+                            </div>
+                            <div class="col-md-12 col-6 text-center mb-4">
+                                <picture>
+                                    <source srcset="images/ai.png" />
+                                    <source srcset="images/ai.png" />
+                                    <img class="img-fluid" src="images/ai.png" />
+                                </picture>
+                            </div>
+                            <div class="col-md-12 col-6 text-center mb-4">
+                                <picture>
+                                    <source srcset="images/xd.png" />
+                                    <source srcset="images/xd.png" />
+                                    <img class="img-fluid" src="images/xd.png" />
+                                </picture>
+                            </div>
+                            <div class="col-md-12 col-6 text-center mb-4">
+                                <picture>
+                                    <source srcset="images/ae.png" />
+                                    <source srcset="images/ae.png" />
+                                    <img class="img-fluid" src="images/ae.png" />
+                                </picture>
+                            </div>
+                            <div class="col-md-12 col-6 text-center mb-4">
+                                <picture>
+                                    <source srcset="images/ci.png" />
+                                    <source srcset="images/ci.png" />
+                                    <img class="img-fluid" src="images/ci.png" />
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dev Skills -->
+                    <div class="col-md-3 col-sm-12 text-dark">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 text-center"><p class="h1">Web Dev Skills</p></div>
+                            <div class="col-md-12 col-6 text-center mb-3">
+                                <picture>
+                                    <source srcset="images/MySQL-Logo.wine.png" />
+                                    <source srcset="images/MySQL-Logo.wine.png" />
+                                    <img class="img-fluid w-50" src="images/MySQL-Logo.wine.png" />
+                                </picture>
+                            </div>
+                            <div class="col-md-12 col-6 text-center mb-3">
+                                <picture>
+                                    <source srcset="images/new-php-logo.svg" />
+                                    <source srcset="images/new-php-logo.svg" />
+                                    <img class="img-fluid w-25" src="images/new-php-logo.svg" />
+                                </picture>
+                            </div>
+                            <div class="col-md-12 col-6 text-center mb-3">
+                                <picture>
+                                    <source srcset="images/js-logo.png" />
+                                    <source srcset="images/js-logo.png" />
+                                    <img class="img-fluid w-25" src="images/js-logo.png" />
+                                </picture>
+                            </div>
+                            <div class="col-md-12 col-6 text-center mb-3">
+                                <picture>
+                                    <source srcset="images/seal-color-aef0354c.png" />
+                                    <source srcset="images/seal-color-aef0354c.png" />
+                                    <img class="img-fluid w-25" src="images/seal-color-aef0354c.png" />
+                                </picture>
+                            </div>
+                            <div class="col-md-12 col-6 text-center mb-3">
+                                <picture>
+                                    <source srcset="images/CSS3_and_HTML5_logos_and_wordmarks.svg.png" />
+                                    <source srcset="images/CSS3_and_HTML5_logos_and_wordmarks.svg.png" />
+                                    <img class="img-fluid w-25" src="images/CSS3_and_HTML5_logos_and_wordmarks.svg.png" />
+                                </picture>
+                            </div>
+                            <div class="col-md-12 col-6 text-center mb-3">
+                                <picture>
+                                    <source srcset="images/HTML5-logo.svg" />
+                                    <source srcset="images/HTML5-logo.svg" />
+                                    <img class="img-fluid w-25" src="images/HTML5-logo.svg" />
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio bg-primary pb-0">
+            <div class="container text-center" id="modal">
+                <div class="row text-center text-white">
+                    <div class="col-md-12 col-sm-12">
+                        <p class="h2 display-4 mb-4">Introduce My Project</p>
+                        <p class="lead">Product designer and digital graphic designer in design field for 4 years and so far, specialized in</p>
+                        <p class="lead">UI/UX, logo and all kind of design field</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-md-7 col-sm-12 btn-group rounded bg-white pt-1 pb-1" role="group">
+                        <button type="button" class="btn btn-warning w-25 text-white">All</button> <button type="button" class="btn btn-outline-warning w-25">UI/UX</button>
+                        <button type="button" class="btn btn-outline-warning w-25">Logos</button> <button type="button" class="btn btn-outline-warning w-25">Motion Graphic</button>
+                    </div>
+                    <div class="col"></div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-3 col-sm-6 mb-5" @click="showModall('images/portfolio/portfolio-1.png');">
+                        <picture>
+                            <source srcset="images/portfolio/portfolio-1.png" />
+                            <source srcset="images/portfolio/portfolio-1.png" />
+                            <img slot="image" class="img-fluid cursor-pointer" src="images/portfolio/portfolio-1.png"/>
+                        </picture>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-5" @click="showModall('images/portfolio/portfolio-2.png');">
+                        <picture>
+                            <source srcset="images/portfolio/portfolio-2.png" />
+                            <source srcset="images/portfolio/portfolio-2.png" />
+                            <img class="img-fluid cursor-pointer" src="images/portfolio/portfolio-2.png" />
+                        </picture>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-5" @click="showModall('images/portfolio/portfolio-3.png');">
+                        <picture>
+                            <source srcset="images/portfolio/portfolio-3.png" />
+                            <source srcset="images/portfolio/portfolio-3.png" />
+                            <img class="img-fluid cursor-pointer" src="images/portfolio/portfolio-3.png" />
+                        </picture>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-5" @click="showModall('images/portfolio/portfolio-4.png');">
+                        <picture>
+                            <source srcset="images/portfolio/portfolio-4.png" />
+                            <source srcset="images/portfolio/portfolio-4.png" />
+                            <img class="img-fluid cursor-pointer" src="images/portfolio/portfolio-4.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 mb-5" @click="showModall('images/portfolio/portfolio-5.png');">
+                        <picture>
+                            <source srcset="images/portfolio/portfolio-5.png" />
+                            <source srcset="images/portfolio/portfolio-5.png" />
+                            <img class="img-fluid cursor-pointer" src="images/portfolio/portfolio-5.png" />
+                        </picture>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-5" @click="showModall('images/portfolio/portfolio-6.png');">
+                        <picture>
+                            <source srcset="images/portfolio/portfolio-6.png" />
+                            <source srcset="images/portfolio/portfolio-6.png" />
+                            <img class="img-fluid cursor-pointer" src="images/portfolio/portfolio-6.png" />
+                        </picture>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-5" @click="showModall('images/portfolio/portfolio-7.png');">
+                        <picture>
+                            <source srcset="images/portfolio/portfolio-7.png" />
+                            <source srcset="images/portfolio/portfolio-7.png" />
+                            <img class="img-fluid cursor-pointer" src="images/portfolio/portfolio-7.png" />
+                        </picture>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-5" @click="showModall('images/portfolio/portfolio-8.png');">
+                        <picture>
+                            <source srcset="images/portfolio/portfolio-8.png" />
+                            <source srcset="images/portfolio/portfolio-8.png" />
+                            <img class="img-fluid cursor-pointer" src="images/portfolio/portfolio-8.png" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-md-12 col-sm-12 text-center"><button type="button" class="btn btn-custom font-weight-bold px-5 mt-4">Load More</button></div>
+                </div>
+                <modal v-if="showModal" @close="showModal = false">
+                    <img slot="image" class="img-fluid cursor-pointer" :src="src" />
+                </modal>
+            </div>
+        </section>
+        <!-- Contact Section-->
+        <section class="page-section" style="background-color: #5a70ff;">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-md-12 col-sm-12 text-center text-white"><p class="h2 display-4">Start Design with me</p></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 mx-auto mt-5">
+                        <button type="button" class="btn btn-secondary font-weight-bold mr-4">HIRE ME NOW</button> <button type="button" class="btn btn-primary font-weight-bold">CONTACT ME</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer text-left" style="background-color: #4a61f8;">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Avatar-->
+                    <div class="col-lg-2"><img class="img-fluid" src="images/footer_avatar.png" alt="footer avatar" /></div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-3 footer_contact">
+                        <div>
+                            <p class="text-left">Contact</p>
+                            <div class="text-left">
+                                <img src="images/footer_contact-phone.png">
+                                <span>+15196971990</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 footer_contact mb-4">
+                        <div class="text-left">
+                            <p class="text-left">Email</p>
+                            <div>
+                                <img src="images/footer_contact-mail.png">
+                                <span>Abedshammalah@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-3"><img class="img-fluid" src="images/footer_checkme.png" alt="footer checkme" /></div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+        <script type="module" src="js/main.js"></script>
+        <!-- template for the modal component -->
+        <script type="text/x-template" id="modal-template">
+            <transition name="modal">
+            <div class="modal-mask">
+                <div class="modal-wrapper">
+                <div class="modal-container">
+                    <slot name="image"></slot>
+    
+                    <div class="modal-footer">
+                        <slot name="footer">
+                            <button class="modal-default-button" @click="$emit('close')">
+                            Close
+                            </button>
+                        </slot>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </transition>
+        </script>
+    </body>
+</html>
