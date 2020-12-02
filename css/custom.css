@@ -1,0 +1,28 @@
+.divide-dot-blue {
+    border-top: 3px dashed #4A61F8;
+    margin-top: 0.7rem;
+}
+
+.divide-dot-dark {
+    border-top: 2px solid #adb5bd;
+}
+
+.mystory {
+    background-color: #4A61F8;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.mypassion {
+    background-color: #4A4A4A;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.btn-outline-warning {
+    border-color: white;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
