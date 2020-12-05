@@ -15,3 +15,5 @@ MYSQL
 
 
 cd the source file to your device or check the web url
+
+Designer and developer : Abdalrahman Abushammala
